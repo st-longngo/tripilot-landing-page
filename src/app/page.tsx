@@ -24,7 +24,7 @@ export default function Home() {
           </h1>
         </div>
         <p className="text-sm text-gray-600 mb-6">
-          Lịch trình rõ ràng, cảm xúc ngập tràng
+          Lịch trình rõ ràng, cảm xúc ngập tràn
         </p>
 
         {/* Current Tour Section */}
