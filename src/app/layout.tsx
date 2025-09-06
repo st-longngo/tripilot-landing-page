@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     apple: "/logo.png",
   },
   manifest: "/manifest.json",
-  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
