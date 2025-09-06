@@ -45,9 +45,11 @@ export default function TourHeader({ tour }: TourHeaderProps) {
           <span>{tour.currentParticipants}/{tour.maxParticipants} người</span>
         </div>
         
-        <div className="flex items-center gap-2 text-lg font-bold text-blue-600">
-          {formatPrice(tour.pricing.price, tour.pricing.currency)}
-        </div>
+        {tour.pricing.price && 
+          <div className="flex items-center gap-2 text-lg font-bold text-blue-600">
+            {formatPrice(tour.pricing.price, tour.pricing.currency)}
+          </div>
+        }
       </div>
       
       <div className="flex items-center gap-2 text-sm">
