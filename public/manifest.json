@@ -1,0 +1,21 @@
+{
+  "name": "Tripilot - Tour Landing Page",
+  "short_name": "Tripilot",
+  "description": "Xem thông tin chi tiết và lịch trình của các tour du lịch",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
